@@ -2,6 +2,10 @@
 
 Implementación didáctica de un algoritmo genético aplicado a un problema real de la industria bancaria: decidir **cuánto efectivo cargar en cada cajero** y **cada cuántos días visitarlo**.
 
+![Representación de una solución, ciclo evolutivo y convergencia del algoritmo genético para reposición de efectivo en cajeros](docs/imagenes/algoritmos-geneticos.png)
+
+*Esquema del modelo. En esta implementación, la decisión temporal representa el intervalo entre visitas (de 1 a 14 días) y la ejecución termina tras 300 generaciones; no se aplica parada anticipada por convergencia.*
+
 Los datos son simulados. El código es Python puro: solo `random`, `math`, `csv` y `os`. No hay dependencias que instalar.
 
 ## El problema
